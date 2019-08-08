@@ -1,0 +1,38 @@
+{
+    "name": "LovyanLauncher",
+    "description": "M5Stack Tools & Application Launcher",
+    "keywords": "Lovyan,Launcher",
+    "author": "lovyan03",
+    "repository": "https://github.com/lovyan03/lovyanlauncher-Firmware",
+    "firmware_category": [
+        {
+            "Stack-4MB": {
+                "path": "firmware_4MB",
+                "device": [
+                    "M5Stack 4MB Model (default partition)"
+                ],
+                "default_baud": 921600
+            }
+        },
+        {
+            "Stack-16MB": {
+                "path": "firmware_16MB",
+                "device": [
+                    "M5Stack 16MB Model"
+                ],
+                "default_baud": 921600
+            }
+        },
+        {
+            "Stack-4MB_minSPIFFS": {
+                "path": "firmware_4MB_minspiffs",
+                "device": [
+                    "M5Stack 4MB Model (min SPIFFS partition)"
+                ],
+                "default_baud": 921600
+            }
+        }
+    ],
+    "version": "0.1.8",
+    "framework": "Arduino IDE"
+}
